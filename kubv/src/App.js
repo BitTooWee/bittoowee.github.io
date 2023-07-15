@@ -1,14 +1,14 @@
-import './App.css';
+import './index.css';
+
+import NavBar from './NavBar';
+import Home from './Home';
 
 function App() {
-  const title = 'Welcome to the website';
-  const likes = 50;
   return (
     <div className="App">
+      <NavBar />
       <div className="content">
-        <h1>{title}</h1>
-        <p>Liked {likes} times</p>
-        <a href="http://www.google.com"></a>
+        <Home />
       </div>
     </div>
   );
